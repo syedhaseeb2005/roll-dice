@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(#4158D0,#C850C0,#FFCC70);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.main{
+    height: 400px;
+    width: 600px;
+    background-color: blue;
+    margin: 130px auto 0 auto;
+    border-radius: 10px;
+    position: relative;
+}
+.active{
+    background-color: lightblue;
+}
+.diceScore{
+    background-color: #FFCC00;
+    width: 100px;
+    padding: 30px;
+    border-radius: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+.centerLine {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.GameBtn{
+    background: linear-gradient(to right, #ff6e7f 0%, #bfe9ff  51%, #ff6e7f  100%);
+    color: green;
+    font-weight: bold;
+    text-transform: capitalize;
+    border-radius: 7px;
+}
+.rollDicebtn{
+    color: green;
+    font-weight: bold;
+    text-transform: capitalize;
+    background: linear-gradient(to right, #003973 0%, #E5E5BE  51%, #003973  100%);
+    border-radius: 7px;
+}
+.holdbtn{
+    border-radius: 7px;
+    color: green;
+    font-weight: bold;
+    text-transform: capitalize;
+    background: linear-gradient(to right, #AA076B 0%, #61045F  51%, #AA076B  100%);
+}
+.hidden {
+    display: none;
+}
